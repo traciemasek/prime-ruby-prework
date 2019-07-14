@@ -6,6 +6,8 @@ def prime?(num)
     for x in divisible_range
       if num % x == 0 
         return false
+      else 
+        return true
       end
     end
   end
