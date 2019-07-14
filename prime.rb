@@ -1,5 +1,6 @@
-def prime?(int)
-  if int <= 0 
+def prime?(num)
+  if num <= 1 
     false 
+  end
   
 end
