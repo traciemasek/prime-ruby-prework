@@ -3,14 +3,10 @@ def prime?(num)
     return false 
   end
   
-  else
-    for x in 2..num
-      if num % x == 0 
-        return false
-      else 
-        return true
-      end
+  for x in 2..(num / 2)
+    if num % x == 0 
+      return false
     end
   end
-    
+  return true  
 end
